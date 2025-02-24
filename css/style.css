@@ -8,10 +8,251 @@
 body{
     display: flex;
     flex-direction: column;
-    min-height: 200vh;
+    min-height: 600vh;
 }
-.container{
+.container-fluid {
+    padding: 20px;
+}
+.header{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+}
+.header__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.bx-menu {
+    font-size: 30px;
+}
+.header__img {
+    width: 100px;
+}
+.header__inputBox {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    width: 600px;
+    border-radius: 30px;
+}
+.header__input{
+    border: none;
+    outline: none;
+}
+.bx-search {
+    font-size: 20px;
+    position: relative;
+    left: 340px;
+}
+.bxs-microphone {
+    font-size: 20px;
+}
+.header__btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: gainsboro;
+    border-radius: 30px;
+}
+.bx-plus {
+    font-size: 20px;
+}
+.bx-bell {
+    font-size: 25px;
+}
+.header__image {
+    width: 30px;
+}
+
+
+.container {
+    width: 1440px;
     margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.youtube__general {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    margin-top: 100px;
+}
+.youtube__imgBox {
+    width: 100%;
+    height: 1000px;
     padding-left: 5px;
     padding-right: 5px;
+}
+.youtube__textBox {
+    width: 100%;
+    height: 1000px;
+}
+.youtube__img {
+    width: 1000px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+.youtube__title {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.youtube__box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.youtube__user {
+    width: 40px;
+    border-radius: 50%;
+}
+.youtube__general2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.youtube__subject {
+    font-size: 18px;
+}
+.youtube__text {
+    font-size: 16px;
+}
+.youtube__btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 30px;
+}
+.youtube__button {
+    padding: 8px 15px;
+    font-size: 16px;
+    color: black;
+    background-color: gainsboro;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.bx-like, .bx-dislike, .bx-share, .bx-dots-horizontal-rounded  {
+    font-size: 22px;
+}
+.youtube__icon{
+    padding: 10px 10px;
+    font-size: 16px;
+    color: black;
+    background-color: gainsboro;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.youtube__borderBox {
+    background-color: gainsboro;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.border__subject {
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.border__textBox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+.bxs-right-arrow, .bxs-circle {
+    font-size: 8px;
+}
+.youtube__koment {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.koment__title {
+    font-size: 25px;
+
+}
+.bx-menu-alt-left {
+    font-size: 25px;
+}
+.koment__subject {
+    font-size: 18px;
+}
+
+.youtube__komentBox {
+    margin-top: 30px;
+    display: flex;
+    align-items: start;
+    gap: 15px;
+}
+.koment__img {
+    width: 40px;
+    border-radius: 50%;
+}
+.koment__heading {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+.koment__text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+.koment__iconBox {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.koment__btn {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+.bx-dots-vertical-rounded{
+    font-size: 20px;
+    margin-left: 750px;
+}
+
+.text__box {
+    margin-bottom: 20px;
+}
+.text__link {
+    display: flex;
+    align-items: start;
+    color: black;
+}
+.text__img {
+    width: 180px;
+    border-radius: 10px;
+}
+.text__textBox {
+}
+.text__subject {
+    font-size: 18px;
+}
+.text__text {
+}
+.youtube__textBox{
 }
